@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import { DESTINATIONS } from '../features/destinations/data';
 import { FilterState } from '../features/destinations/types';
 import DestinationCardFilter from '../components/DestinationCardFilter';
@@ -13,6 +13,12 @@ const FilterDestination = () => {
     country: '',
     region: ''
   });
+
+  const [visibleCount, setVisibleCount] = useState(6);
+
+  useEffect(() => {
+    setVisibleCount(6);
+  }, [filters]);
 
   // Calculate unique options based on ALL data or current filter context
   const uniqueCountries = useMemo(() => {
@@ -40,8 +46,16 @@ const FilterDestination = () => {
     });
   }, [filters]);
 
+  const displayedDestinations = useMemo(() => {
+    return filteredDestinations.slice(0, visibleCount);
+  }, [filteredDestinations, visibleCount]);
+
+  const handleLoadMore = () => {
+    setVisibleCount(prev => prev + 6);
+  };
+
   return (
-    <div>
+    <div className='pb-14'>
          {/* Filter */}
         <FilterBar 
         filters={filters} 
@@ -50,23 +64,35 @@ const FilterDestination = () => {
         availableRegions={uniqueRegions}
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto pb-[80px]">
-        {filteredDestinations.length > 0 ? (
-            filteredDestinations.map((dest) => (
-            <DestinationCardFilter key={dest.slug} destination={dest} />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            {displayedDestinations.length > 0 ? (
+            displayedDestinations.map((dest) => (
+                <DestinationCardFilter key={dest.slug} destination={dest} />
             ))
-        ) : (
+            ) : (
             <div className="col-span-full text-center py-20 text-gray-500">
-            <p className="text-xl">No destinations found matching your criteria.</p>
-            <button 
+                <p className="text-xl">No destinations found matching your criteria.</p>
+                <button 
                 onClick={() => setFilters({ search: '', country: '', region: '' })}
                 className="mt-4 text-white underline hover:text-gray-300"
-            >
+                >
                 Clear filters
+                </button>
+            </div>
+            )}
+        </div>
+
+       {visibleCount < filteredDestinations.length && (
+            <div className="flex justify-center mt-10">
+            <button 
+                onClick={handleLoadMore}
+                className="px-8 py-3 bg-[#9E8B62] text-white rounded-full uppercase text-xs font-bold tracking-widest hover:bg-[#8A7952] transition-colors shadow-lg cursor-pointer"
+            >
+                Load More
             </button>
             </div>
         )}
-        </div>
+
     </div>
   )
 }

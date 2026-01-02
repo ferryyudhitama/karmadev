@@ -50,14 +50,9 @@ const DestinationCardFilter: React.FC<DestinationCardFilterProps> = ({ destinati
 
       {/* Content (Bottom) */}
       <div className="absolute bottom-0 left-0 w-full p-6 flex items-end justify-between">
-        <div className="flex flex-col gap-1 pr-4">
+        <div className="flex flex-col gap-1 pr-4 w-[60%]">
           <h3 className="font-serif text-3xl font-medium text-white leading-tight">
-            {destination.title.split(' ').map((word, i, arr) => (
-              <span key={i} className="block">
-                {word}
-                {i < arr.length - 1 ? ' ' : ''}
-              </span>
-            ))}
+            {destination.title}
           </h3>
           <p className="text-sm font-medium text-gray-300 mt-2 uppercase tracking-wide">
             {destination.location.region}, {destination.location.country}

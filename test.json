@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "karma-kandara",
+    "title": "Karma Kandara",
+    "location": {
+      "country": "Bali",
+      "region": "Ungasan"
+    },
+    "thumbnail": "/destinations/kandara_thumb.jpg",
+    "banner": "/destinations/kandara-fullhd.jpg",
+    "description": "Luxury cliff resort di Uluwatu."
+  },
+  {
+    "slug": "karma-jimbaran",
+    "title": "Karma Jimbaran",
+    "location": {
+      "country": "Bali",
+      "region": "Jimbaran"
+    },
+    "thumbnail": "/destinations/jimbaran_thumb.jpg",
+    "banner": "/destinations/jimbaran-fullhd.jpg",
+    "description": "Resort vibes di area Jimbaran."
+  },
+  {
+    "slug": "karma-fushi",
+    "title": "Karma Fushi",
+    "location": {
+      "country": "Maldives",
+      "region": "North Male Atoll"
+    },
+    "thumbnail": "/destinations/fushi_thumb.jpg",
+    "banner": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=1920&auto=format&fit=crop",
+    "description": "An isolated paradise in the Maldives featuring overwater bungalows, crystal clear turquoise waters, and world-class diving experiences."
+  }
+  
+]

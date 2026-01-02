@@ -12,7 +12,7 @@ export default async function Page({ params }: Props) {
   if (!data) notFound();
 
   return (
-    <main style={{ padding: 24 }}>
+    <main>
       <h1>Destination: {data.title}</h1>
       <p>Description:{data.description}</p>
     </main>

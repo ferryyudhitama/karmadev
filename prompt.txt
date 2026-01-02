@@ -1,0 +1,10 @@
+--- Header and Banner -----
+create component in next js with typescript and tailwind,
+- use font family:
+title: roxborough cf
+body text: Basis Grotesque Arabic Pro
+- create header component with stick at top same like picture
+- make banner same exactly like image, with description on left, and scrolling card in right side 
+- make scrolling card with 4 dummy data (data json provided):
+- when banner scrolling change image background with next image background card
+

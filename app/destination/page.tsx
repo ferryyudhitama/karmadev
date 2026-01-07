@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Hero from '../src/components/Hero';
 import FilterDestination from '../src/components/FilterDestination';
+import ContactForm from "../src/components/ContactForm";
 import Image from "next/image";
 
 
@@ -88,6 +89,8 @@ export default async function Page({ params }: Props) {
       </section>
 
       <FilterDestination />
+
+      <ContactForm />
 
    
 

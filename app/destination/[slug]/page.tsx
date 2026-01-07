@@ -1,6 +1,7 @@
 import { getDestinationBySlug } from "@/app/src/features/destinations/data";
 import { notFound } from "next/navigation";
 import BannerDestinations from "@/app/src/components/BannerDestinations";
+import Accommodation from "@/app/src/components/Accommodation";
 
 
 type Props = {
@@ -29,6 +30,8 @@ export default async function Page({ params }: Props) {
             </p>
         </div>
     </div>
+
+    <Accommodation />
 
 
     </main>

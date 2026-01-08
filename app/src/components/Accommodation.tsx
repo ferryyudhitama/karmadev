@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactMarkdown from "react-markdown";
 
 import { Destination } from '../features/destinations/types';
 
@@ -46,11 +47,16 @@ const Accommodation: React.FC<AccommodationProps> = ({ accommodation }) => {
                 <div className="absolute top-1/4 right-0 md:right-1/3 w-full max-w-4xl z-20">
                     <div className="bg-white/5 backdrop-blur-[60px] border border-white/10 rounded-[2rem] p-10 md:py-20 md:px-15 shadow-2xl">
                         <h2 className="font-roxborough text-5xl md:text-6xl text-white mb-8">
-                            {accommodation.title}
+                            <ReactMarkdown>
+                                {accommodation.title}
+                            </ReactMarkdown>
                         </h2>
                         <div className="space-y-6">
                             <p className="text-gray-300 text-sm md:text-base leading-relaxed font-light font-basis">
-                            {accommodation.description}
+                            <ReactMarkdown>
+                                {accommodation.description}
+                            </ReactMarkdown>
+                            
                              
                             </p>
                            

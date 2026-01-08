@@ -1,6 +1,13 @@
 import React from 'react'
 
-const Accommodation = () => {
+import { Destination } from '../features/destinations/types';
+
+interface AccommodationProps {
+  accommodation: Destination;
+}
+
+const Accommodation: React.FC<AccommodationProps> = ({ accommodation }) => {
+
   return (
     <div>
         <section className="bg-black pb-100 px-0 overflow-hidden">
@@ -39,12 +46,12 @@ const Accommodation = () => {
                 <div className="absolute top-1/4 right-0 md:right-1/3 w-full max-w-4xl z-20">
                     <div className="bg-white/5 backdrop-blur-[60px] border border-white/10 rounded-[2rem] p-10 md:py-20 md:px-15 shadow-2xl">
                         <h2 className="font-roxborough text-5xl md:text-6xl text-white mb-8">
-                            Accommodation
+                            {accommodation.title}
                         </h2>
                         <div className="space-y-6">
                             <p className="text-gray-300 text-sm md:text-base leading-relaxed font-light font-basis">
-                            Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs.<br /><br />
-                            Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.
+                            {accommodation.description}
+                             
                             </p>
                            
                         </div>

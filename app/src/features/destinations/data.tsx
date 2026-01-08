@@ -17,6 +17,15 @@ export const DESTINATIONS: Destination[] = [
       whatsapp: "https://wa.me/6281138107114",
       destination_guide: "https://karmagroup.com/wp-content/themes/karma/api/force-download.php?url=https://storage.karmagroup.com/assets/karmagroup.com/2024/05/KKandara_Destination_Booklet_A4_20240522.pdf&name=Karma_Kandara_Destinations.pdf&name=Karma_Kandara_Destinations"
     },
+    accommodation:{
+      title: "Accommodation",
+      description: "Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs. <br><br> Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.",
+      images: [
+        "/destinations/bg-2.jpg",
+        "/destinations/bg-4.jpg",
+        "/destinations/bg-3.jpg"
+      ]
+    },
     thumbnail: "/destinations/kandara_thumb.jpg",
     banner: "https://storage.karmagroup.com/assets/karmagroup.com/2024/04/kc221-alluring-karma-kandara-1.jpg",
     titleContent: "A Luxury Cliff Top Resort with Direct Access to a Stunning Beach",
@@ -38,10 +47,20 @@ export const DESTINATIONS: Destination[] = [
       whatsapp: "#",
       destination_guide: "#"
     },
+   accommodation:{
+      title: "Accommodation",
+      description: "Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs. <br><br> Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.",
+      images: [
+        "/destinations/bg-2.jpg",
+        "/destinations/bg-4.jpg",
+        "/destinations/bg-3.jpg"
+      ]
+    },
     thumbnail: "/destinations/jimbaran_thumb.jpg",
     banner: "/destinations/jimbaran-fullhd.jpg",
-    titleContent: "",
-    description: "Set within lush tropical gardens and only a few footsteps away from the fine white sands and calm waters of one of Bali’s most tranquil beaches, Karma Jimbaran offers just the right balance of hideaway and hospitality."
+    titleContent: "Lorem Ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A iste deserunt quo molestias ab adipisci! Saepe, eum? Consequatur earum aliquam quod? Hic animi numquam quasi quaerat est nesciunt optio ratione?"
+
   },
   {
     slug: "karma-fushi",
@@ -59,8 +78,18 @@ export const DESTINATIONS: Destination[] = [
       whatsapp: "#",
       destination_guide: "#"
     },
+    accommodation:{
+      title: "Accommodation",
+      description: "Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs. <br><br> Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.",
+      images: [
+        "/destinations/bg-2.jpg",
+        "/destinations/bg-4.jpg",
+        "/destinations/bg-3.jpg"
+      ]
+    },
     thumbnail: "https://storage.karmagroup.com/assets/karmagroup.com/2024/09/karma_fushi_gallery_6.jpg",
     banner: "https://storage.karmagroup.com/assets/karmagroup.com/2024/09/karma_fushi_gallery_6.jpg",
+    titleContent: "",
     description: "Set sail aboard Karma Fushi, a luxurious liveaboard yacht offering world-class amenities and unforgettable experiences across the Maldives. Cruise through crystal-clear waters, discover pristine beaches, and snorkel vibrant coral reefs in the stunning Baa and Malé Atolls. Whether you’re diving with manta rays or relaxing on deck with a cocktail, Karma Fushi delivers the perfect blend of barefoot luxury, curated adventure, and tropical serenity for every kind of traveller."
   },
   {
@@ -78,6 +107,15 @@ export const DESTINATIONS: Destination[] = [
       email: "#",
       whatsapp: "#",
       destination_guide: "#"
+    },
+    accommodation:{
+      title: "Accommodation",
+      description: "Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs. <br><br> Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.",
+      images: [
+        "/destinations/bg-2.jpg",
+        "/destinations/bg-4.jpg",
+        "/destinations/bg-3.jpg"
+      ]
     },
     thumbnail: "https://images.unsplash.com/photo-1534313314376-a72289b6181e?q=80&w=800&auto=format&fit=crop",
     banner: "https://images.unsplash.com/photo-1534313314376-a72289b6181e?q=80&w=1920&auto=format&fit=crop",
@@ -100,6 +138,15 @@ export const DESTINATIONS: Destination[] = [
       whatsapp: "#",
       destination_guide: "#"
     },
+    accommodation:{
+      title: "Accommodation",
+      description: "Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs. <br><br> Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.",
+      images: [
+        "/destinations/bg-2.jpg",
+        "/destinations/bg-4.jpg",
+        "/destinations/bg-3.jpg"
+      ]
+    },
     thumbnail: "https://storage.karmagroup.com/assets/karmagroup.com/2024/09/klom_header_3.jpg",
     banner: "https://storage.karmagroup.com/assets/karmagroup.com/2024/09/klom_header_3.jpg",
     titleContent: "",
@@ -120,6 +167,15 @@ export const DESTINATIONS: Destination[] = [
       email: "#",
       whatsapp: "#",
       destination_guide: "#"
+    },
+    accommodation:{
+      title: "Accommodation",
+      description: "Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs. <br><br> Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.",
+      images: [
+        "/destinations/bg-2.jpg",
+        "/destinations/bg-4.jpg",
+        "/destinations/bg-3.jpg"
+      ]
     },
     thumbnail: "https://storage.karmagroup.com/assets/karmagroup.com/Karma-Salford-Hall-Resort-Page/Gallery/Karma-Salford-Hall-Gallery-01.jpg",
     banner: "https://storage.karmagroup.com/assets/karmagroup.com/2022/11/krama-salford-hall-senior-citizen-banner-02.jpg",
@@ -142,6 +198,15 @@ export const DESTINATIONS: Destination[] = [
       whatsapp: "#",
       destination_guide: "#"
     },
+    accommodation:{
+      title: "Accommodation",
+      description: "Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs. <br><br> Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.",
+      images: [
+        "/destinations/bg-2.jpg",
+        "/destinations/bg-4.jpg",
+        "/destinations/bg-3.jpg"
+      ]
+    },
     thumbnail: "https://storage.karmagroup.com/assets/karmagroup.com/2024/06/karma-bayon-gallery-section-image-01.jpg",
     banner: "https://storage.karmagroup.com/assets/karmagroup.com/2024/06/karma-bayon-gallery-section-image-04.jpg",
     titleContent: "",
@@ -163,6 +228,15 @@ export const DESTINATIONS: Destination[] = [
       whatsapp: "#",
       destination_guide: "#"
     },
+    accommodation:{
+      title: "Accommodation",
+      description: "Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs. <br><br> Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.",
+      images: [
+        "/destinations/bg-2.jpg",
+        "/destinations/bg-4.jpg",
+        "/destinations/bg-3.jpg"
+      ]
+    },
     thumbnail: "https://storage.karmagroup.com/assets/karmagroup.com/Destinations/Karma-Retreats/Karma-Minoan-Crete/Gallery/Karma-Minoan-Crete-gallery-1.jpg",
     banner: "https://karmagroup.com/wp-content/gallery/fc0d2dca-karma-resort-minoan/80bd6458-karma-minoan-crete-min.jpg",
     titleContent: "",
@@ -183,6 +257,15 @@ export const DESTINATIONS: Destination[] = [
       email: "#",
       whatsapp: "#",
       destination_guide: "#"
+    },
+    accommodation:{
+      title: "Accommodation",
+      description: "Karma Kandara blends traditional Balinese architecture with luxury amenities to create a series of private villas, each formed from pavilions arranged around their own tropical courtyard and private pool. The two, three and four-bedroom villas feature natural stone, teakwood decks and indigenous grass or ironwood tile roofs. <br><br> Karma’s Bali Price Match Guarantee. We do our best to always offer you the lowest price, but if you find a lower qualified price* on another site, we will be happy to match it. Please email the offer to our res@karmaresorts.com email address.",
+      images: [
+        "/destinations/bg-2.jpg",
+        "/destinations/bg-4.jpg",
+        "/destinations/bg-3.jpg"
+      ]
     },
     thumbnail: "https://storage.karmagroup.com/assets/karmagroup.com/Karma-Borgo-di-Colleoli--Resort-Page/Gallery/gallery-1.jpg",
     banner: "https://storage.karmagroup.com/assets/karmagroup.com/2021/05/7edbfccf-17.af6718c0-karma-tuscany-min.jpg",

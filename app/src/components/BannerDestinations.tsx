@@ -62,19 +62,19 @@ const BannerDestinations: React.FC<BannerDestinationsProps> = ({ destination }) 
             {/* Floating Heart Button */}
             <button 
             onClick={() => setIsLiked(!isLiked)}
-            className="absolute top-32 right-8 p-3 bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl hover:bg-white/20 transition-all z-10 cursor-pointer"
+            className="absolute top-32 right-8 p-3 bg-white/10 backdrop-blur-lg border border-white rounded-xl hover:bg-white/20 transition-all z-10 cursor-pointer text-white"
             >
             <Heart size={20} className={isLiked ? "fill-white" : ""} />
             </button>
 
             {/* Center Titles */}
             <div className="relative z-10 text-center">
-            <h1 className="font-serif text-[10vw] md:text-[8vw] leading-none uppercase tracking-[0.2em] font-light drop-shadow-2xl">
+            <h1 className="font-serif text-[10vw] md:text-[8vw] leading-none uppercase tracking-[0.2em] text-white drop-shadow-2xl">
                 {destination.title.split(' ').map((word, i) => (
                 <span key={i} className="block">{word}</span>
                 ))}
             </h1>
-            <p className="mt-8 text-lg md:text-xl font-light tracking-[0.1em] text-white/90">
+            <p className="mt-8 text-lg md:text-xl tracking-[0.1em] text-white">
                 {destination.location.region}, {destination.location.country}
             </p>
             </div>
@@ -162,7 +162,7 @@ const BannerDestinations: React.FC<BannerDestinationsProps> = ({ destination }) 
                         height={24}
                         priority
                     />
-                    <span className="text-xs font-bold tracking-widest cursor-pointer">Destination Guide</span>
+                    <span className="text-xs font-bold tracking-widest cursor-pointer text-white">Destination Guide</span>
                 </Link>
             </div>
             </div>

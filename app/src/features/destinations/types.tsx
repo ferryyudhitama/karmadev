@@ -13,11 +13,18 @@ export type Links = {
     destination_guide: string;
 };
 
+export type Accommodation = {
+    title: string;
+    description: string;
+    images: string[];
+};
+
 export type Destination = {
   slug: string;
   title: string;
   location: Location;
   links: Links;
+  accommodation: Accommodation;
   description: string;
   thumbnail: string;
   titleContent: string;

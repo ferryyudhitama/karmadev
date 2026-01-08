@@ -31,7 +31,7 @@ export default async function Page({ params }: Props) {
         </div>
     </div>
 
-    <Accommodation />
+    <Accommodation accommodation={destination.accommodation}/>
 
 
     </main>
